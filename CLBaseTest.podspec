@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  我自己的一个基本类测试库
                    DESC
 
   spec.homepage     = "https://github.com/cameronli/CLBaseTest"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/cameronli/CLBaseTest", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cameronli/CLBaseTest.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
