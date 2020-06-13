@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CLHelloWorld.h"
 
 //! Project version number for CLBaseTest.
 FOUNDATION_EXPORT double CLBaseTestVersionNumber;

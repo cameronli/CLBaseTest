@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		26CB76A02495247B0072E64D /* CLBaseTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CB769E2495247B0072E64D /* CLBaseTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CB76AD249528DE0072E64D /* CLHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CB76AB249528DE0072E64D /* CLHelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CB76AE249528DE0072E64D /* CLHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB76AC249528DE0072E64D /* CLHelloWorld.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26CB769B2495247B0072E64D /* CLBaseTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLBaseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CB769E2495247B0072E64D /* CLBaseTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBaseTest.h; sourceTree = "<group>"; };
 		26CB769F2495247B0072E64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB76AB249528DE0072E64D /* CLHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLHelloWorld.h; sourceTree = "<group>"; };
+		26CB76AC249528DE0072E64D /* CLHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLHelloWorld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				26CB769E2495247B0072E64D /* CLBaseTest.h */,
 				26CB769F2495247B0072E64D /* Info.plist */,
+				26CB76AB249528DE0072E64D /* CLHelloWorld.h */,
+				26CB76AC249528DE0072E64D /* CLHelloWorld.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26CB76A02495247B0072E64D /* CLBaseTest.h in Headers */,
+				26CB76AD249528DE0072E64D /* CLHelloWorld.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +97,7 @@
 		26CB76922495247A0072E64D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CL;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = CameronL;
 				TargetAttributes = {
@@ -131,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CB76AE249528DE0072E64D /* CLHelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -296,6 +306,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};
